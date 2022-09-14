@@ -17,16 +17,39 @@
       <section>
         <div id="begin">
           <legend>Inserisci il tuo sesso:</legend>
-          <input type="checkbox" name="donna" class="genre" value="Donna" /> Donna <input type="checkbox" name="uomo" class="genre" value="Uomo" /> Uomo
+          <input type="checkbox" name="donna" id="genreF" value="Donna" /> Donna <input type="checkbox" name="uomo" id="genreF" value="Uomo" /> Uomo
         </div>
-        <label for="age1">Quanti anni ti dicono che dimostri?</label>
+        <label for="age1">Quanti anni dicono che dimostri?</label>
         <input type="text" id="age1" required />
         <label for="age2">Quanti anni hai in realtà?</label>
         <input type="text" id="age2" required />
-        <button onclick="resultAge()" type="">Iniziamo!</button>
+        <label for="eat">Quanti giorni a settimana mangi in maniera sana ed equilibrata?</label>
+        <input type="text" id="eat" required />
+        <label for="sport">Quante volte a settimana fai attività fisica?</label>
+        <input type="text" id="sport" required />
+        <label for="alcool">Quante volte al mese fai abuso di alcool?</label>
+        <input type="text" id="alcool" required />
+        <button onclick="resultAge()">Valuta!</button>
       </section>
-      <aside id="gif_age">
-        <iframe src="" frameborder="0"></iframe>
+      <aside id="gif_age_old">
+        <a href="https://www.gifanimate.com/cat-anziani-104.htm"
+          ><img src="https://www.gifanimate.com/data/media/104/anziano-immagine-animata-0047.gif" border="0" alt="anziano-immagine-animata-0047"
+        /></a>
+        <div class="comment">
+          <p>Stai invecchiando precocemente!!</p>
+          <p>Nonostante i tuoi sforzi c'è ancora qualcosa nelle tue abitudini che devi migliorare... con questo stile di vita sembri più vecchio di quanto sembra</p>
+          <p>Cambia il tuo stile di vita...</p>
+        </div>
+      </aside>
+      <aside id="gif_age_young">
+        <a href="https://www.gifanimate.com/cat-anziani-104.htm"
+          ><img src="https://www.gifanimate.com/data/media/104/anziano-immagine-animata-0007.gif" border="0" alt="anziano-immagine-animata-0007"
+        /></a>
+        <div class="comment">
+          <p>Sarai un anziano longevo ed in forma!!</p>
+          <p>Stai conducendo uno stile di vita abbastanza sano, anche se ti concedi qualche sfizio ogni tanto... cerca di mantenere soprattutto le tue sane abitudini...</p>
+          <p>Continua così!!</p>
+        </div>
       </aside>
     </main>
     <script src="./js/script.js"></script>
