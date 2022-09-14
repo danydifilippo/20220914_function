@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Funzioni in Javascript" content="Functions in JS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Progetto di funzioni in Javascript</title>
+  </head>
+  <body>
+    <main>
+      <h1>Stai conducendo una vita salutare?</h1>
+      <h2>Aspettative di vita in base alle tue abitudini quotidiane</h2>
+      <section>
+        <div id="begin">
+          <legend>Inserisci il tuo sesso:</legend>
+          <input type="checkbox" name="donna" class="genre" value="Donna" /> Donna <input type="checkbox" name="uomo" class="genre" value="Uomo" /> Uomo
+        </div>
+        <label for="age1">Quanti anni ti dicono che dimostri?</label>
+        <input type="text" id="age1" required />
+        <label for="age2">Quanti anni hai in realtà?</label>
+        <input type="text" id="age2" required />
+        <button onclick="resultAge()" type="">Iniziamo!</button>
+      </section>
+      <aside id="gif_age">
+        <iframe src="" frameborder="0"></iframe>
+      </aside>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
